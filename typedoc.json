@@ -1,4 +1,10 @@
 {
-  "entryPoints": ["./src/ejercicio_clase.ts"],
+  "entryPoints": [
+    "./src/AbstractFilterMapReduce.ts",
+    "./src/FilterMapAddReduce.ts",
+    "./src/FilterMapDivReduce.ts",
+    "./src/FilterMapProdReduce.ts",
+    "./src/FilterMapSubReduce.ts",
+  ],
   "out": "./docs"
 }
