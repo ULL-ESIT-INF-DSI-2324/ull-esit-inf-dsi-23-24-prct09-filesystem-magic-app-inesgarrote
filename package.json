@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "coverage": "c8 npm test && c8 report --reporter=lcov",
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
     "start": "tsc-watch --onSuccess \"node dist/ejercicio-1.js\"",
     "doc": "typedoc",
     "test": "mocha"
@@ -22,7 +22,6 @@
     "@typescript-eslint/parser": "^7.2.0",
     "c8": "^9.1.0",
     "chai": "^4.1.1",
-    "coveralls": "^3.1.1",
     "eslint": "^8.57.0",
     "mocha": "^10.3.0",
     "nyc": "^15.1.0",

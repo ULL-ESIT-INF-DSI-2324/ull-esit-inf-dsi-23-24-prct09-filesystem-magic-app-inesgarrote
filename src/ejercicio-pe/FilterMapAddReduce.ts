@@ -13,12 +13,15 @@ import { AbstractFilterMapReduce } from "./AbstractFilterMapReduce.js";
  * @tparam number Tipo de los elementos de la lista de entrada y de la lista de salida.
  * @tparam number Tipo de los elementos de la lista de entrada y de la lista de salida.
  */
-export class FilterMapAddReduce extends AbstractFilterMapReduce<number, number> {
+export class FilterMapAddReduce extends AbstractFilterMapReduce<
+  number,
+  number
+> {
   /**
    * @brief Método que realiza la operación de filtrado sobre una lista de números.
-   * @param pred 
-   * @param list 
-   * @returns 
+   * @param pred
+   * @param list
+   * @returns
    */
   filter(pred: (item: number) => boolean, list: number[]): number[] {
     const result: number[] = [];
@@ -32,9 +35,9 @@ export class FilterMapAddReduce extends AbstractFilterMapReduce<number, number> 
 
   /**
    * @brief Método que realiza la operación de mapeo sobre una lista de números.
-   * @param func 
-   * @param list 
-   * @returns 
+   * @param func
+   * @param list
+   * @returns
    */
   map(func: (item: number) => number, list: number[]): number[] {
     const result: number[] = [];
@@ -46,8 +49,8 @@ export class FilterMapAddReduce extends AbstractFilterMapReduce<number, number> 
 
   /**
    * @brief Método que realiza la operación de reducción sobre una lista de números.
-   * @param list 
-   * @returns 
+   * @param list
+   * @returns
    */
   reduce(list: number[]): number {
     let sum = 0;
@@ -57,7 +60,6 @@ export class FilterMapAddReduce extends AbstractFilterMapReduce<number, number> 
     return sum;
   }
 }
-
 
 /*
 // Example usage:

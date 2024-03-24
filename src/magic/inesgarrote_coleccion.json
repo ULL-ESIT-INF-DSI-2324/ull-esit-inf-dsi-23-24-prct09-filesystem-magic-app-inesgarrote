@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Black Lotus",
+    "costeMana": 10000,
+    "color": "Blanco",
+    "tipo": "Criatura",
+    "rareza": "Rara",
+    "textoReglas": "Esto es una carta",
+    "fuerzaResistencia": [
+      2,
+      3
+    ],
+    "valorMercado": 50
+  },
+  {
+    "id": 2,
+    "nombre": "Black Pink",
+    "costeMana": 5000,
+    "color": "Verde",
+    "tipo": "Planeswalker",
+    "rareza": "Rara",
+    "textoReglas": "Esto es una carta",
+    "marcasLealtad": 15,
+    "valorMercado": 50000
+  },
+  {
+    "id": 3,
+    "nombre": "Black Swan",
+    "costeMana": 10000,
+    "color": "Blanco",
+    "tipo": "Criatura",
+    "rareza": "Rara",
+    "textoReglas": "Esto es una carta",
+    "fuerzaResistencia": [
+      2,
+      3
+    ],
+    "valorMercado": 50
+  },
+  {
+    "id": 4,
+    "nombre": "Ole tu",
+    "costeMana": 10000,
+    "color": "Azul",
+    "tipo": "Tierra",
+    "rareza": "Comun",
+    "textoReglas": "Esto es una carta",
+    "valorMercado": 50
+  },
+  {
+    "id": 5,
+    "nombre": "Ole tu",
+    "costeMana": 10000,
+    "color": "Azul",
+    "tipo": "Planeswalker",
+    "rareza": "Comun",
+    "textoReglas": "Esto es una carta",
+    "marcasLealtad": 8,
+    "valorMercado": 50
+  }
+]

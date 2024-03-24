@@ -1,0 +1,23 @@
+[
+  {
+    "id": 5,
+    "nombre": "quevedoo",
+    "costeMana": 10000,
+    "color": "Azul",
+    "tipo": "Planeswalker",
+    "rareza": "Comun",
+    "textoReglas": "Esto es una carta",
+    "marcasLealtad": 8,
+    "valorMercado": 50
+  },
+  {
+    "id": 4,
+    "nombre": "Ole tu",
+    "costeMana": 10000,
+    "color": "Azul",
+    "tipo": "Tierra",
+    "rareza": "Comun",
+    "textoReglas": "Esto es una carta",
+    "valorMercado": 50
+  }
+]
