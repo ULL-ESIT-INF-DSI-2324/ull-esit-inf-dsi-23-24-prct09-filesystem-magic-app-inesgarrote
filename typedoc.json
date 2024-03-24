@@ -4,7 +4,9 @@
     "./src/ejercicio-pe/FilterMapAddReduce.ts",
     "./src/ejercicio-pe/FilterMapDivReduce.ts",
     "./src/ejercicio-pe/FilterMapProdReduce.ts",
-    "./src/ejercicio-pe/FilterMapSubReduce.ts"
+    "./src/ejercicio-pe/FilterMapSubReduce.ts",
+    "./src/magic/carta.ts",
+    "./src/magic/usuario.ts",
   ],
   "out": "./docs"
 }
