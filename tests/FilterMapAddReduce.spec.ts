@@ -2,7 +2,7 @@ import "mocha";
 //import { expect } from "chai";
 import pkg from 'chai';
 const { expect } = pkg;
-import { FilterMapAddReduce } from "../src/FilterMapAddReduce.js";
+import { FilterMapAddReduce } from "../src/ejercicio-pe/FilterMapAddReduce.js";
 
 describe("FilterMapAddReduce", () => {
   it("filter", () => {

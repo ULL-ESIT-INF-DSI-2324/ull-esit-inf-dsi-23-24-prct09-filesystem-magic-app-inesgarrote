@@ -1,10 +1,10 @@
 {
   "entryPoints": [
-    "./src/AbstractFilterMapReduce.ts",
-    "./src/FilterMapAddReduce.ts",
-    "./src/FilterMapDivReduce.ts",
-    "./src/FilterMapProdReduce.ts",
-    "./src/FilterMapSubReduce.ts",
+    "./src/ejercicio-pe/AbstractFilterMapReduce.ts",
+    "./src/ejercicio-pe/FilterMapAddReduce.ts",
+    "./src/ejercicio-pe/FilterMapDivReduce.ts",
+    "./src/ejercicio-pe/FilterMapProdReduce.ts",
+    "./src/ejercicio-pe/FilterMapSubReduce.ts",
   ],
   "out": "./docs"
 }
